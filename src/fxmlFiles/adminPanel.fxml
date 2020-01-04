@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FEC8D0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerClasses.AdminPanel">
+   <children>
+      <Text layoutX="204.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrator">
+         <font>
+            <Font name="Yu Gothic Light" size="51.0" />
+         </font>
+      </Text>
+      <Button fx:id="addProductBtn" layoutX="50.0" layoutY="84.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="168.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Add Product">
+         <font>
+            <Font name="Yu Gothic Medium" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="showProductsBtn" layoutX="42.0" layoutY="146.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="184.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Show Product">
+         <font>
+            <Font name="Yu Gothic Medium" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="addStaffBtn" layoutX="431.0" layoutY="146.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="168.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Add Staff">
+         <font>
+            <Font name="Yu Gothic Medium" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteStaffBtn" layoutX="431.0" layoutY="222.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="168.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Delete Staff">
+         <font>
+            <Font name="Yu Gothic Medium" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="historyBtn" layoutX="423.0" layoutY="84.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="184.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Show history">
+         <font>
+            <Font name="Yu Gothic Medium" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteProductBtn" layoutX="29.0" layoutY="222.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Delete Product">
+         <font>
+            <Font name="Yu Gothic Medium" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="addQuantityBtn" layoutX="36.0" layoutY="293.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Add quantity">
+         <font>
+            <Font name="Yu Gothic Medium" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="incomeBtn" layoutX="417.0" layoutY="293.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Income">
+         <font>
+            <Font name="Yu Gothic Medium" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="backBtn" layoutX="11.0" layoutY="354.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="78.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 2px 2px 2px 2px; -fx-border-color: black;" text="Back">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
